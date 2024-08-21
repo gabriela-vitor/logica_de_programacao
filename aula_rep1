@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(){
+    int horas, minutos;
+    
+    printf("qual a hora atual (formato 24h) \n");
+    scanf("%d", &horas);
+    
+    minutos = horas * 60;
+    
+    printf("ja se passaram %.d minutos desde o inicio do dia", minutos);
+}
