@@ -1,0 +1,23 @@
+//soma e subtracao: escreva um programa que peça dois numeros ao usuario e que exiba o a soma deles; depois modifica o programa para que subtraia os numeros.
+
+#include <stdio.h>
+
+main(){
+	
+	int numero1, numero2;
+	
+	printf("digite um numero\n");
+	scanf("%d", &numero1);
+        fflush(stdin); //limpar a memoria
+	
+	printf("digite outro numero\n");
+	scanf("%d", &numero2);
+        fflush(stdin);
+	
+    printf("soma = %d\n", numero1 + numero2);
+    printf("subtracao = %d\n", numero1 - numero2);
+	
+	
+	
+	
+}
