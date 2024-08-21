@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <locale.h>
+
+
+
+int main(){
+	
+	setlocale(LC_ALL, "portuguese");
+	
+	int idade;
+	float peso;
+	double altura;
+
+	
+	
+    
+	
+	printf("digite sua idade\n");
+	scanf("%d", &idade);
+	
+	printf("digite seu peso\n");
+	scanf("%f", &peso);
+	
+	printf("digite sua altura\n");
+	scanf("%lf", &altura);
+	
+
+	
+
+	printf("sua idade é: %d\n", idade);
+	printf("seu peso é: %.3f\n", peso);
+	printf("sua altura é: %.2lf\n", altura);
+
+	
+	
+}
