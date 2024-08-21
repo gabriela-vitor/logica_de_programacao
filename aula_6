@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+int main(){
+
+
+int valor = 10;
+
+valor++;
+printf("valor depois do incremento: %d\n", valor);
+valor --;
+printf("valor depois do incremento: %d\n ", valor);
+valor += 2;
+printf("valor depois do incremento: %d\n", valor);
+valor =2;
+printf("valor depois do decremento: %d\n ", valor);
+valor *=2;
+printf("valor depois da atribuicao com uma multiplicacao: %d\n", valor);
+valor /=2;
+printf("valor depois da atribuicao com uma divisao: %d\n", valor);
+
+
+}
