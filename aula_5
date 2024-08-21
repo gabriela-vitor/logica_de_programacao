@@ -1,0 +1,142 @@
+#include <stdio.h>
+#include <locale.h>
+#include <math.h>
+
+//questão 11
+/*
+int main(){
+	setlocale(LC_ALL, "Portuguese");
+	
+	double numero1, numero2;
+	
+	printf("digite um numero\n");
+	scanf("%lf", &numero1);
+	
+	printf("%.lf\n", pow(numero1, 2));
+	
+	printf("%.lf", pow(numero1, 3));
+	
+}
+*/
+
+
+//questão 14
+/*
+int main(){
+	setlocale(LC_ALL, "Portuguese");
+	
+	double capital, juros, anos, montante;
+	
+	printf("digite o capital\n");
+	scanf("%lf", &capital);
+	
+	printf("digite a taxa de juros anual\n");
+	scanf("%lf", &juros);
+	
+	printf("digite o numero de anos\n");
+	scanf("%lf", &anos);
+	
+	montante = capital * pow(1 + juros / 100, anos);
+	
+
+	printf("o montante e: %.lf ", montante);
+	
+	
+	
+	
+	
+}
+*/
+
+//questao 19
+/*
+int main(){
+	setlocale(LC_ALL, "Portuguese");
+	
+	double numero;
+	
+	printf("digite um numero\n");
+	scanf("%lf", &numero);
+	
+	printf("%.lf", sqrt(numero));
+	
+}
+*/
+
+
+
+//questao 22
+/*
+int main(){
+	
+	setlocale(LC_ALL, "Portuguese");
+	 
+	 double base, altura, perimetro, area;
+	 
+	 printf("digite a base do retangulo\n");
+	 scanf("%lf", &base);
+	 
+	 printf("digite a altura do retangulo\n");
+	 scanf("%lf", &altura);
+	 
+	 perimetro = 2 * (base + altura);
+	 area = base * altura;
+	 
+	 printf("o perimetro da area do retangulo é: %.lf\n", perimetro);
+	 printf("a area do retangulo é: %.lf", area);
+	 
+	 
+	
+	
+	
+}
+*/
+
+//questao 23
+
+
+/*
+
+int main(){
+	
+setlocale(LC_ALL, "Portuguese");
+	
+	int a, b, c, delta;
+	double valorx1, valorx2, valorx1f, valorx2f;
+
+
+   printf("digite um numero\n");
+   scanf("%d", &a);
+   
+   printf("digite um numero\n");
+   scanf("%d", &b);
+   
+   printf("digite um numero\n");
+   scanf("%d", &c);
+   
+   printf("a sua equacao ficou assim: %dx^2+%dx+%d=0\n", a, b, c);
+   
+   delta = pow(b, 2) - 4 * a * c;
+   valorx1 = -b + sqrt(delta);
+    valorx1 = -b - sqrt(delta);
+    valorx1f = valorx1/(2*a);
+     valorx2f = valorx1/(2*a);
+     
+     printf("valor de x1: %.2lf\n", valorx1f);
+     printf("valor de x2: %.2lf\n", valorx2f);
+   
+   
+   
+   
+   
+   
+   
+   
+    
+	
+	
+	
+	
+}
+
+*/
