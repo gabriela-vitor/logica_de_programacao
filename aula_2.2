@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+	setlocale(LC_ALL, "portuguese");
+	
+	float nota1, nota2, nota3, notafinal;
+	
+	printf("informe a sua nota1\n");
+	scanf("%f", &nota1);
+	printf("informe a sua nota2\n");
+	scanf("%f", &nota2);
+	printf("informe a sua nota3\n");
+	scanf("%f", &nota3);
+	
+	 notafinal= (nota1 + nota2 + nota3)/3;
+	
+	printf("sua notafinal representa: %.2f\n", notafinal);
+	
+
+	
+	if(notafinal < 6) {
+		printf("reprovado\n");
+	} else {
+		printf("aprovado\n");
+	} 
+	
+	
+	
+	
+	
+}
