@@ -1,0 +1,46 @@
+#include <stdio.h>
+
+int main(){
+	
+	int num1, num2, op, resultado;
+	
+	printf("escolha uma operacao \n1-soma \n2-sub \n3-mult \n4-div\n");
+	scanf("%d", &op);
+	
+	switch(op){
+		case 1:
+			printf("digite os numeros para a soma\n");
+			scanf("%d %d", &num1, &num2);
+			resultado = num1 + num2;
+			printf("a soma de %d + %d = %d", num1, num2, resultado);
+			break;
+		
+		case 2:	
+		    printf("digite os numeros para a subtracao\n");
+			scanf("%d %d", &num1, &num2);
+			resultado = num1 - num2;
+			printf("a subtracao de %d - %d = %d", num1, num2, resultado);
+			break;
+			
+		case 3:
+			printf("digite os numeros para a multiplicacao\n");
+			scanf("%d %d", &num1, &num2);
+			resultado = num1 * num2;
+			printf("a multiplicacao de %d * %d = %d", num1, num2, resultado);
+			break;
+			
+		case 4:
+			printf("digite os numeros para a divisao\n");
+			scanf("%d %d", &num1, &num2);
+			resultado = num1 / num2;
+			printf("a divisao de %d / %d = %d", num1, num2, resultado);
+			break;
+			
+		default:
+		printf("opcao invalida");
+		break;
+			
+			
+			
+		
+	}
