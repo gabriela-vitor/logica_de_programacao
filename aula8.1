@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(){
+	double numero1, numero2, resultado; 
+	char operacao;
+	
+	
+	printf("digite um numero\n");
+	scanf("%lf", &numero1);
+	
+	printf("digite outro numero\n");
+	scanf("%lf", &numero2);
+	
+	printf("escolha uma operacao: +, -, *, /\n");
+	scanf(" %c", &operacao);
+	
+	if(operacao == '+' ) {
+		resultado = numero1 + numero2;
+		printf("o resultado da soma e: %.2lf", resultado);
+	}
+		else if(operacao == '-' ) {
+		resultado = numero1 - numero2;
+		printf("o resultado da subtracao e: %.2lf", resultado);
+	}
+		else if(operacao == '*' ) {
+		resultado = numero1 * numero2;
+		printf("o resultado da multiplicacao e: %.2lf", resultado);
+	}
+		else if(operacao == '/' ) {
+		resultado = numero1 / numero2;
+		printf("o resultado da divisao e: %.2lf", resultado);
+	}
+	
+	
+	
+	
+
+}
