@@ -1,0 +1,125 @@
+#include <stdio.h>
+
+/* contagem crescente
+int main(){
+	
+	int i = 1;
+	
+	for(i; i<= 10; i++){
+			printf("%d", i);
+	}
+	
+	
+	
+}
+*/
+
+/*contagem regressiva
+int main(){
+	int i = 10;
+	
+	for(i; i>=1; i--){
+		printf("%d\n", i);
+	}
+}
+*/
+
+
+/* soma dos numeros pares
+int main(){
+	int i = 0, soma = 0;
+	
+	for(i; i<=50; i+=2){
+		
+		if(i == 0){
+			continue;
+		}
+		
+		soma += i;
+	
+		
+		
+	}
+	printf("a soma e %d", soma);
+}
+*/
+
+/*tabuada de um numero
+int main(){
+	
+	int num;
+	int i = 1;
+	
+	printf("digite um numero\n");
+	scanf("%d", &num);
+	
+	for( i; i <= 10; i++){
+			printf("%d X %d = %d\n ", num, i, num*i);
+		}
+		
+			
+		}
+	*/
+	
+	
+	/*soma de numeros impares
+	int main(){
+		int i =1;
+		int soma=0;
+		
+		for(i; i<=100; i+=2){
+			
+			soma += i;
+		
+		}
+			printf("a soma dos numeros e %d", soma);
+	}
+	*/
+	
+	/*fatorial de um numero
+	int main(){
+		int num, fatorial = 1;
+		int i = 1;
+		
+		printf("digite um numero\n");
+		scanf("%d", &num);
+		
+		for(i; i<=num; i++ ){
+			
+		fatorial = fatorial * i;
+			
+		}
+		printf("o fatorial do numero %d e %d!", num, fatorial );
+	}
+	*/
+	
+	/*imprimir numeros pares
+	int main(){
+		int i = 0;
+		
+		for(i; i<=10; i+=2){
+			if(i==0){
+				continue;
+			}
+			printf("%d\n", i);
+		}
+		
+	}
+	*/
+	
+	/*imprimir numeros impares
+	int main(){
+		int i = 0;
+		
+		for(i; i<=10; i++){
+			if(i % 2 == 0)// se o resto da divisao do i por 2 for igual a 0 ignora o numero e continua a sequencia
+			{
+				continue;
+			}
+			printf("%d\n", i);
+		}
+		
+	}
+	*/
+	
+	
