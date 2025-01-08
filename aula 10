@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(){
+    
+    srand(time(NULL));
+    int numaleatorio = rand() % 10 + 1;
+    int num;
+    
+    do{
+        printf("digite um numero entre (0 a 10) para adivinhar\n");
+        scanf("%d", &num);
+        
+        
+        
+    }while(numaleatorio != num);
+    
+    if(num == numaleatorio){
+            printf("parabens, voce acertou!!!");
+        }
+    
+    
+}
