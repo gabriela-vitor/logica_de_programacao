@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+/*
+int main(){
+	
+	int  numero, soma = 0;
+	
+	do{
+		printf("digite um numero inteiro positivo\n");
+		scanf("%d", &numero);
+	
+		
+	soma += numero;
+		
+	}while(numero != 0);
+      printf("a soma dos numeros e %d", soma);
+}
+
+*/
+
+
+/*
+int main(){
+	
+	int num;
+	
+	printf("digite um numero\n");
+	scanf("%d", &num);
+	
+	do{
+		printf("%d\n", num);
+		num --;
+	}while(num >= 1);
+	
+	
+	
+	
+}
+*/
+
+
+/*
+int main(){
+	srand(time(NULL));
+	
+	int numeroaleatorio = rand() % 10 + 1;
+	int num;
+int	i = 0;
+	
+	
+	do{
+		printf("digite um numero entre (0 a 10) para adivinhar\n");
+        scanf("%d", &num);
+        i++;
+        
+        
+        
+	}while(numeroaleatorio != num);
+	
+	if(numeroaleatorio == num){
+			printf("Parabens, voce acertou!!!\n");
+	}
+	
+	printf("---O numero de tentativas foi %d---", i);
+	
+	
+	
+}
+*/
+
+
+
+
+
+
+	
+	
+/*
+int main(){
+  int num, i = 1, fatorial = 1;
+
+  printf("digite um numero inteiro positivo: ");
+  scanf("%d", &num);
+
+  
+ do{
+ 	fatorial = fatorial * i;
+ 	 i++;
+ 	
+ } while (i <= num); 
+
+  printf("%d! = %d\n", num, fatorial);
+
+  
+}
+*/
