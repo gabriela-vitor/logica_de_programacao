@@ -1,0 +1,136 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+	
+	setlocale(LC_ALL, "Portuguese");
+	
+	
+	char questao1, questao2, questao3, questao4, questao5, questao6, a, b, c, d, questao7;
+	int i = 0;
+	float nota;
+	
+	printf("Questao 1\n\n");
+	printf("Qual é a sintaxe correta para declarar uma variavel inteira em C?\n\n ");
+	printf("a) int x\n", a);
+	printf("b) var x\n", b);
+	printf("c) integer x\n", c);
+	printf("d) numero x\n", d);
+	scanf("%c", &questao1);
+	fflush(stdin);
+	
+	if(questao1 == 'a' || questao1 == 'A'){
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+	}
+	
+
+	
+	printf("Questão 2\n\n");
+	printf(" Qual é a função usada para imprimir no console em C?\n");
+	printf("a) print();\n", a);
+	printf("b) console.log();\n", b);
+	printf("c) printtext();\n", c);
+	printf("d) printf();\n", d);
+	scanf("%c", &questao2);
+	fflush(stdin);
+	
+	if(questao2 == 'd' || questao2 == 'D'){
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+	}
+	
+	
+    printf("Questao 3\n");
+	printf("O que o operador '==' faz em C?\n");
+	printf("a) Atribui um valor a uma variável.\n", a);
+	printf("b) Compara dois valores.\n", b);
+	printf("c) Divide dois valores.\n", c);
+	printf("d) Multiplica dois valores.\n", d);
+	scanf("%c", &questao3);
+	fflush(stdin);
+	
+	if(questao3 == 'b' || questao3 == 'B'){
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+		}
+		
+	printf("Questao 4\n");
+	printf(" Qual é o operador lógico par'OU' em C?\n");
+	printf("a) &&\n", a);
+	printf("b) ||\n", b);
+	printf("c) !\n", c);
+	printf("d) <>\n", d);
+	scanf("%c", &questao4);
+	fflush(stdin);
+	
+	if(questao4 == 'b' || questao4 == 'B'){
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+		}
+		
+	printf("Questao 5\n");	
+	printf("Qual é a estrutura de controle usada para repetição em C?\n");
+	printf("a) if\n", a);
+	printf("b) switch\n", b);
+	printf("c) for\n", c);
+	printf("d) else\n", d);
+	scanf("%c", &questao5);
+	fflush(stdin);
+	
+	if(questao5 == 'c' || questao5 == 'C'){
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+		}
+		
+		
+	printf("Questao 6\n");	
+	printf(" Qual é a função usada para ler um número inteiro do teclado em C?\n");
+	printf("a) read_integer();\n", a);
+	printf("b) input_int();\n", b);
+	printf("c) scanf();\n", c);
+	printf("d) get_int();\n", d);
+	scanf("%c", &questao6);
+	fflush(stdin);
+	
+	if(questao6== 'c' || questao6== 'C'){
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+		}
+		
+		printf("Questao 7");
+		printf(" Qual é o valor da expressão 5 +3 * 2 em C?\n");
+	printf("a) 16\n", a);
+	printf("b) 11\n", b);
+	printf("c) 13\n", c);
+	printf("d) 10\n", d);
+	scanf("%c", &questao7);
+	
+	if(questao7=='b' || questao7=='b') {
+	
+		printf("CORRETO\n\n");
+		i++;
+	}else{
+		printf("ERRADO\n\n");
+		}
+		
+		
+		
+		
+		printf("acertos %d\n", i);
+		
+		nota = i * 1.43;
+		
+		printf("sua nota foi %.f", nota);
